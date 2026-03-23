@@ -1,43 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Products - Unlimited Solar Power</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products & Packages | Unlimited Solar Power</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<nav class="navbar">
-<h2>Unlimited Solar Power</h2>
-</nav>
+    <header>
+        <nav>
+            <div class="logo">Unlimited<span>Solar</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" style="color: var(--primary-blue);">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+        </nav>
+    </header>
 
-<section class="products">
+    <section class="section" style="margin-top: 60px;">
+        <h1 class="section-title" data-aos="fade-down">Our <span>Complete Packages</span></h1>
+        <p style="text-align: center; margin-bottom: 3rem;">Cash, layby, and installments allowed. Professional installation available.</p>
+        
+        <div class="grid">
+            <div class="card" data-aos="fade-up">
+                <h3>Combo 1</h3>
+                <h2 style="color: var(--primary-blue); margin: 10px 0;">R9,550 / $600</h2>
+                <ul style="text-align: left; margin: 15px 0 15px 20px;">
+                    <li>1.6kVA Hybrid Inverter</li>
+                    <li>1x 200Ah Gel Battery</li>
+                    <li>1x 40Ah Solar Controller</li>
+                    <li>1x 560W Mono Panel</li>
+                </ul>
+                <p style="font-size: 0.9rem; text-align: left;"><strong>Runs:</strong> Bar fridge, TV, 15x LED lights, Laptops, Wi-Fi.</p>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+                <h3>1.6kVA Combo 2</h3>
+                <h2 style="color: var(--primary-blue); margin: 10px 0;">R12,800 / $720</h2>
+                <ul style="text-align: left; margin: 15px 0 15px 20px;">
+                    <li>1.6kVA Hybrid Inverter</li>
+                    <li>1x 12V 100Ah Lithium Battery</li>
+                    <li>2x 560W Mono Panels</li>
+                </ul>
+                <p style="font-size: 0.9rem; text-align: left;"><strong>Runs:</strong> Fridge, TV, Washing Machine, Small Grinder/Welder, 25x Lights.</p>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="200">
+                <h3>3.5kVA Combo 4</h3>
+                <h2 style="color: var(--primary-blue); margin: 10px 0;">R20,500 / $1,200</h2>
+                <ul style="text-align: left; margin: 15px 0 15px 20px;">
+                    <li>3.5kVA Hybrid Inverter</li>
+                    <li>4x High Voltage Panels</li>
+                    <li>24V 100Ah Lithium Battery</li>
+                    <li>Mounting & Protection Kits</li>
+                </ul>
+                <p style="font-size: 0.9rem; text-align: left;"><strong>Runs:</strong> TV, Fridge, Pump, Electronics. <em>No ZESA bills!</em></p>
+            </div>
+             <div class="card" data-aos="fade-up" data-aos-delay="300">
+                <h3>5kVA Standard Package</h3>
+                <h2 style="color: var(--primary-blue); margin: 10px 0;">R33,500 / $1,800</h2>
+                <ul style="text-align: left; margin: 15px 0 15px 20px;">
+                    <li>5.5kVA Hybrid Inverter</li>
+                    <li>6x 550W Solar Panels</li>
+                    <li>1x 48V 100Ah Lithium Battery</li>
+                    <li>Full Protection & Installation</li>
+                </ul>
+                <p style="font-size: 0.9rem; text-align: left;"><strong>Runs:</strong> 1.5HP Pump, 2 Fridges, PCs. <em>Ideal for bigger homes/farms.</em></p>
+            </div>
+        </div>
+    </section>
 
-<h1>Our Products</h1>
+    <section class="section" style="background-color: var(--light);">
+        <h2 class="section-title" data-aos="fade-up">Individual <span>Products</span></h2>
+        
+        <div class="grid">
+            <div class="product-category" data-aos="fade-up">
+                <h3>Hybrid Inverters</h3>
+                <ul class="product-list">
+                    <li><span>1Kw 12v Esener</span> <span class="product-price">R3,100</span></li>
+                    <li><span>2.2 Kw 12v HzSolar</span> <span class="product-price">R3,200</span></li>
+                    <li><span>3.5kw 24v Ecco</span> <span class="product-price">R3,750</span></li>
+                    <li><span>5KW 48v Growatt</span> <span class="product-price">R7,950</span></li>
+                    <li><span>8KW 48v Sunsynk Single Phase</span> <span class="product-price">R23,500</span></li>
+                    <li><span>10 Kw Chisage Hybrid 48v</span> <span class="product-price">R26,500</span></li>
+                </ul>
+            </div>
 
-<div class="product-list">
+            <div class="product-category" data-aos="fade-up" data-aos-delay="100">
+                <h3>Lithium & Gel Batteries</h3>
+                <ul class="product-list">
+                    <li><span>Gel battery 100ah 12v</span> <span class="product-price">R2,200</span></li>
+                    <li><span>12V Esener 100ah Wallmount</span> <span class="product-price">R5,000</span></li>
+                    <li><span>24v Felicity Lithium</span> <span class="product-price">R6,300</span></li>
+                    <li><span>48v Shoto 5.12kw (BMS)</span> <span class="product-price">R14,000</span></li>
+                    <li><span>48v 5kw Sunsynk 5.12w</span> <span class="product-price">R20,900</span></li>
+                    <li><span>48v Deye 5Kw</span> <span class="product-price">R20,900</span></li>
+                </ul>
+            </div>
 
-<div class="product">1Kw 12v Esener - R3100</div>
-<div class="product">3.6kw 24v Must - R4150</div>
-<div class="product">5KW Must - R6950</div>
-<div class="product">8KW Sunsynk Hybrid - R23 500</div>
+            <div class="product-category" data-aos="fade-up" data-aos-delay="200">
+                <h3>Solar Panels & Accessories</h3>
+                <ul class="product-list">
+                    <li><span>400w Standard Panel</span> <span class="product-price">R1,300</span></li>
+                    <li><span>550w Standard Panel</span> <span class="product-price">R1,500</span></li>
+                    <li><span>400w Canadian Panel</span> <span class="product-price">R1,500</span></li>
+                    <li><span>650w Canadian Panel</span> <span class="product-price">R2,000</span></li>
+                    <li><span>100w Flood Light</span> <span class="product-price">R400 / $25</span></li>
+                    <li><span>200w Street Light</span> <span class="product-price">R650 / $44</span></li>
+                </ul>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+            <p><em>*We stock a massive range of Must, Esener, HzSolar, and Sunsynk brands. <a href="contact.html" style="color:var(--primary-blue); font-weight:bold;">Contact us</a> for the full catalog!</em></p>
+        </div>
+    </section>
 
-<h2>Batteries</h2>
-<div class="product">100Ah Gel - R2200</div>
-<div class="product">Lithium 12V - R3500</div>
+    <footer>
+        <div class="footer-bottom" style="margin-top: 0;">
+            <p>&copy; 2026 Unlimited Solar Power. All Rights Reserved.</p>
+        </div>
+    </footer>
 
-<h2>Solar Panels</h2>
-<div class="product">300W - R1000</div>
-<div class="product">550W - R1500</div>
-
-<h2>Combos</h2>
-<div class="product">Combo 1 - R9550</div>
-<div class="product">Combo 3 - R18 500</div>
-
-</div>
-
-</section>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
