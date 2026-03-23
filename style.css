@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0a0a0a;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #111;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  height: 90vh;
+  background: url('../images/hero.jpg') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  background: #007bff;
+  padding: 10px 20px;
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.product-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+.contact input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* Mobile */
+@media(max-width:768px){
+  .nav-links {
+    display: none;
+  }
+}
